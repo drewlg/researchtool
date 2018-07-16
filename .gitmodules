@@ -1,0 +1,3 @@
+[submodule "pdfminertool"]
+	path = pdfminertool
+	url = https://github.com/drewlg/pdfminer.six

@@ -1,6 +1,6 @@
 #!/usr/bin/python
-
-import pdf2txt as pdfcon
+import sys
+from pdfminer.six.tools import pdf2txt as pdfcon
 import glob
 import os
 
