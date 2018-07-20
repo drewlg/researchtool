@@ -1,10 +1,10 @@
 #!/usr/bin/python
 import sys
 from pdfminertool.tools import pdf2txt as pdfcon
-from pdfminertool.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from pdfminertool.converter import TextConverter
-from pdfminertool.layout import LAParams
-from pdfminertool.pdfpage import PDFPage
+from pdfminertool.pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminertool.pdfminer.converter import TextConverter
+from pdfminertool.pdfminer.layout import LAParams
+from pdfminertool.pdfminer.pdfpage import PDFPage
 from io import StringIO
 
 import glob
