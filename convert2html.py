@@ -10,8 +10,9 @@ from io import StringIO
 import glob
 import os
 
+filepdf_path = glob.glob('/database/pdfs/*') 
 __location__ = os.path.realpath(os.path.join(os.getcwd(), os.path.dirname(__file__)))
-list_of_files = open(os.path.join(__location__, '/database/pdfs/*.pdf')) # * means all if need specific format then *.csv
+list_of_files = open(os.path.join(__location__, filepdf_path)) # * means all if need specific format then *.csv
 latest_file = max(list_of_files, key=os.path.getctime)
 
 def convert_pdf_to_txt(path):
