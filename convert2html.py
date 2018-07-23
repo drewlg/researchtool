@@ -12,7 +12,6 @@ import os
 
 list_of_files = glob.glob('/database/pdf/*') # * means all if need specific format then *.csv
 latest_file = max(list_of_files, key=os.path.getctime)
-return latest_file
 
 def convert_pdf_to_txt(path):
     rsrcmgr = PDFResourceManager()
