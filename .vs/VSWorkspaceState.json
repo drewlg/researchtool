@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\database",
-    "\\database\\pdfs"
+    "\\pdfminertool\\pdfminer"
   ],
-  "SelectedNode": "\\database\\pdfs",
+  "SelectedNode": "\\database",
   "PreviewInSolutionExplorer": false
 }
