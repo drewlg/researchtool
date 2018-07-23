@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\database",
+    "\\database\\pdfs"
   ],
-  "SelectedNode": "\\convert2html.py",
+  "SelectedNode": "\\database\\pdfs",
   "PreviewInSolutionExplorer": false
 }
