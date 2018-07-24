@@ -19,7 +19,7 @@ def convert_pdf_to_txt(path):
     codec = 'utf-8'
     laparams = LAParams()
     device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
-    fp = open(latest_file, 'rb')
+    fp = open(path, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
     password = ""
     maxpages = 0
@@ -34,4 +34,8 @@ def convert_pdf_to_txt(path):
     fp.close()
     device.close()
     retstr.close()
-    return text
+    return(text)
+
+if __name__ == '__main__':
+
+    print(convert_pdf_to_txt(latest_file))
