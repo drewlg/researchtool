@@ -10,7 +10,7 @@ from io import StringIO
 import glob
 import os
 
-list_of_files = glob.glob('/database/pdf/*') # * means all if need specific format then *.csv
+list_of_files = glob.glob('./database/pdfs/*') # * means all if need specific format then *.csv
 latest_file = max(list_of_files, key=os.path.getctime)
 
 def convert_pdf_to_txt(path):
