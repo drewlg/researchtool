@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from scihub import Scihub
+from scihub.py import Scihub
 
 sh = Scihub()
 
