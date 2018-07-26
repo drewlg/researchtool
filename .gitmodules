@@ -1,3 +1,6 @@
 [submodule "pdfminertool"]
 	path = pdfminertool
 	url = https://github.com/drewlg/pdfminer.six
+[submodule "scihub.py"]
+	path = scihub.py
+	url = https://github.com/zaytoun/scihub.py.git
