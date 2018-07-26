@@ -1,7 +1,7 @@
 #!/usr/bin/python
-from scihub.py import Scihub
+from scihub.scihub import SciHub
 
-sh = Scihub()
+sh = SciHub()
 
 # retrieve 5 articles on Google Scholars related to 'crispr'
 results = sh.search('crispr', 5)
