@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\database",
-    "\\database\\pdfs"
+    "\\pdfminertool",
+    "\\scihub.py",
+    "\\scihub.py\\scihub"
   ],
-  "SelectedNode": "\\database",
+  "SelectedNode": "\\scihub.py\\scihub\\scihub.py",
   "PreviewInSolutionExplorer": false
 }
